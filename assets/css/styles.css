@@ -1,0 +1,157 @@
+.container {
+  max-width: 1530px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.column {
+  float: left;
+}
+
+h1 {
+  font-family: "Londrina Solid", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 90px;
+  line-height: 110%;
+  /* or 110% */
+  text-align: right;
+  text-transform: uppercase;
+  color: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  padding-top: 22px;
+  height: 120px;
+  font-family: PT Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 34px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fb6542;
+}
+
+.nav li:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.nav li {
+  padding-top: 20px;
+  display: inline-block;
+  margin-right: 35px;
+}
+
+#header {
+  background: linear-gradient(
+      rgba(251, 203, 44, 100),
+      rgba(255, 255, 255, 0)
+    ),
+    url("../images/landscape-coast-panoramic-south-africa-51809.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: normal;
+  height: 1080px;
+  width: 100%;
+}
+
+.one {
+  width: 100%;
+}
+
+.shadow {
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.six-of-12 {
+  width: calc(100% / 12 * 6);
+}
+
+.featured {
+  background-color: green;
+  position: relative;
+  height: 217px;
+  width: 217px;
+  border-radius: 20px;
+  float: left;
+  margin-right: 18px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.featured:hover {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 244px;
+  width: 244px;
+  transition: ease-in 200ms;
+}
+
+.featured img {
+  height: 217px;
+  width: 217px;
+  border-radius: 20px;
+}
+
+.featured:hover img {
+  /* background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5));
+    background-blend-mode: normal; */
+  filter: blur(1px);
+  filter: brightness(70%);
+  margin-right: 60px;
+  height: 244px;
+  width: 244px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: ease-in 200ms;
+}
+
+.featured p {
+  visibility: hidden;
+}
+
+.featured:hover p {
+  visibility: visible;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+  line-height: 31px;
+  transition: ease-in 200ms;
+  z-index: 999;
+}
+
+.bottom {
+  position: absolute;
+  left: 0px;
+  top: 657px;
+}
+
+.bottom-2 {
+  position: absolute;
+  left: 0px;
+  top: 650px;
+}
+.bottom-3 {
+  position: absolute;
+  left: 0px;
+  top: 643px;
+}
+
+.featured-programs {
+  padding-top: 300px;
+}
+.centered {
+}
